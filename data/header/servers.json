@@ -1,0 +1,20 @@
+[
+  {
+    "title":"Turnkey Solutions",
+    "des":"We provide effective solutions that allow you to achieve your business goals and measurable benefits. We focus on a clear partnership.We take customer-oriented approach to every task.",
+    "image":"images/home/graphic.png",
+    "delay":"400ms"
+  },
+  {
+    "title":"Long-Term Relationships",
+    "des":"Our main purpose is to generate healthy lasting relationships and secured growth with our clients. We make sure to accomplish gains via a standardized level of client satisfaction.",
+    "image":"images/home/marketing.png",
+    "delay":"700ms"
+  },
+  {
+    "title":"Innovative Solution",
+    "des":"Keeping in mind the time-frame intends to deliver the perfect business results at reasonable price. We have the ability to maintain deadlines in a cost-effective way.",
+    "image":"images/home/website-design.png",
+    "delay":"1000ms"
+  }
+]

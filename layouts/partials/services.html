@@ -1,0 +1,42 @@
+
+<div class="service_box_container">
+  <div class="row" >
+      <div class="pist_line "></div>
+    <br>
+    <h3 class="header1">What We Offer</h3>
+    <br>
+    {{ range .Site.Pages.ByWeight }}
+      {{ if eq .Type "service" }}
+        <div data-id="{{ .URL }}" class="col-md-3 myclick" style="padding-left:0px;">
+          <a href="{{ .URL }}">
+            <div class="box first" >
+              <span class="icon-cont"><img src="{{ .Params.image.url }}" height=50px width=50px alt="{{ .Params.image.alt }}"/></span>
+              <h3>{{ .Title }}</h3>
+              <a class="expand" href="{{ .URL }}"><span class="plus">+</span></a>
+            </div>
+          </a>
+        </div>
+      {{end}}
+    {{ end }}
+    <!-- {{ $service := getJSON "/data/service/service.json" }}
+    {{ range $service }}
+      <div class="col-md-3">
+        <div class="box first" >
+          <span class="icon-cont"><img src="{{ .Site.BaseURL }}{{ .image }}" height=50px width=50px alt="{{ .alt }}"/></span>
+          <h3>{{ .service_name }}</h3>
+          <a class="expand" href="{{ .url }}"><span class="plus">+</span></a>
+        </div>
+      </div>
+    {{ end }} -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".myclick").click(function(){
+          var path = $(this).data('id');
+          window.location.href = path;
+        });
+      });
+    </script>
+  </div>
+  <br><br>
+    <div class="pist_line "></div>
+</div>

@@ -1,0 +1,105 @@
+baseurl = "https://infinitegeek.gitlab.io/pistalix-web/"
+languageCode = "en-us"
+title = "pistalix"
+
+[menu]
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+[[menu.main]]
+    name = "About Us"
+    url  = "/aboutus/"
+    weight = 2
+[[menu.main]]
+    name = "Services"
+    url  = "/services/"
+    weight = 3
+    identifier = "services"
+    [[menu.main]]
+        name = "Redux"
+        url = '/redux/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Hugo"
+        url = '/hugo/'
+        parent = 'services'
+    [[menu.main]]
+        name = "PHP"
+        url = '/php/'
+        parent = 'services'
+    [[menu.main]]
+        name = "MySQL"
+        url = '/mysql/'
+        parent = 'services'
+    [[menu.main]]
+        name = "MongoDB"
+        url = '/mongodb/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Flask"
+        url = '/flask/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Android"
+        url = '/android/'
+        parent = 'services'
+    [[menu.main]]
+        name = "React Native"
+        url = '/react-native/'
+        parent = 'services'
+    [[menu.main]]
+        name = "iOS"
+        url = '/ios/'
+        parent = 'services'
+    [[menu.main]]
+        name = "AWS"
+        url = '/aws/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Magento"
+        url = '/magento/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Raspberry Pi"
+        url = '/raspberrypi/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Redis"
+        url = '/redis/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Shopify"
+        url = '/shopify/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Unity 3D"
+        url = '/unity3d/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Wordpress"
+        url = '/wordpress/'
+        parent = 'services'
+
+[[menu.main]]
+    name = "Products"
+    identifier = "products"
+    url  = "/Products/"
+    weight = 4
+[[menu.main]]
+    name = "Carrier"
+    url  = "/carrier/"
+    weight = 5
+# [[menu.main]]
+#     name = "Table"
+#     url  = "/table"
+#     weight = 6
+[[menu.main]]
+    name = "Contact us"
+    url  = "/contact/"
+    weight = 7
+[[menu.main]]
+    name = "Pistalix TV"
+    parent = "products"
+    url  = "/TV"
+    weight = 7

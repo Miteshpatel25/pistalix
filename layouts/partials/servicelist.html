@@ -1,0 +1,68 @@
+<section id="page-breadcrumb">
+    <div class="vertical-center sun">
+         <div class="container">
+            <div class="row">
+                <div class="action" style="background-image: url({{ $.Site.BaseURL }}images/home/tour-bg.png);">
+                    <div class="col-sm-12">
+                        <h1 class="title" style="color:#f9fcf6">
+                            <span class="letter myFontHead" data-letter="{{ substr .Title 0 1 }}">{{ .Title }}</span></h1>
+                        <p style="color:#f9fcf6" >{{ .Params.tagline }}</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about-company" class="padding-top wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1 class="margin-bottom myFontHead">{{ .Title }}</h1>
+                    <p class="myfont_footer">{{ .Params.tagline }}</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<div id="page">
+  <div class="content">
+    <!-- <small>Jan 14,2015</small> -->
+    <div class="product-items">
+      <!-- start item -->
+      <div class="row">
+          {{ range .Params.content }}
+            <div class="product-item">
+              <div class="item-wrap ">
+                <img src="{{ .serviceImage.url }}" height="130px" width="209px" alt="Android Apps"/>
+                <div class="wrap-qtt">
+                  <div class="wrap-qtt-field-qtt">
+                    <p class="field-qtt"></p>
+                  </div>
+                  <div class="wrap-qtt-minus-plus">
+                    <button class="btn-cart-qtt btn-plus"></button>
+                    <button class="btn-cart-qtt btn-minus"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="item-info">
+                <a href="#"><div class="item-title">{{ .serviceTitle }}</div></a>
+                <!-- <div class="item-price" data-price="45">$45</div> -->
+              </div>
+               <div class="text"><small style="font-size:17px;" class="myfont_footer">{{ .shortDescription }}</small></div>
+               {{ range $key, $value := .servicePageLink }}
+                 {{ if eq $key "slugUrlService" }}
+                    <div class="know"><a href="{{ $.Site.BaseURL }}{{ $value }}">Know More......</a></div>
+                 {{ end }}
+               {{ end }}
+            </div>
+          {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="service_box_container">
+  <div class="pist_line "></div>
+</div>
+<br /><br />

@@ -1,0 +1,50 @@
+[
+  {
+    "image": "images/services/mobile_app.png",
+    "alt": "Mobile App Development",
+    "service_name": "Mobile App",
+    "url": "#"
+  },
+  {
+    "image": "images/services/web_app.png",
+    "alt": "Web App Development",
+    "service_name": "Web App",
+    "url": "#"
+  },
+  {
+    "image": "images/services/database.png",
+    "alt": "Database",
+    "service_name": "Database",
+    "url": "#"
+  },
+  {
+    "image": "images/services/ecommerce.png",
+    "alt": "E-Commerce",
+    "service_name": "E-Commerce",
+    "url": "#"
+  },
+  {
+    "image": "images/services/services.png",
+    "alt": "Web Services",
+    "service_name": "Web Services",
+    "url": "#"
+  },
+  {
+    "image": "images/services/game_development.png",
+    "alt": "Game Development",
+    "service_name": "Game Development",
+    "url": "#"
+  },
+  {
+    "image": "images/services/erp.png",
+    "alt": "erp systems",
+    "service_name": "ERP Systems",
+    "url": "#"
+  },
+  {
+    "image": "images/services/Virtual-Reality.png",
+    "alt": "virtual reality",
+    "service_name": "Virtual Reality",
+    "url": "#"
+  }
+]

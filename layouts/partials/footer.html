@@ -1,0 +1,120 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+          <div class="contact-info bottom">
+              <h2 class="myFontHead">About Us</h2>
+              <div class="media">
+                  <div class="media-body ">
+                    <p class="myfont_footer">
+                      {{ range .Site.Pages.ByWeight }}
+                        {{ if eq .Type "footer" }}
+                          {{ .Params.aboutus | safeHTML }}
+                        {{ end }}
+                      {{ end }}
+                    </p>
+                  </div>
+               </div>
+               <div class="">
+                  <h2 class="myFontHead">What we do</h2>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">Mobile Development</h3>
+                      <p class="myfont_footer">
+                        {{ range .Site.Pages.ByWeight }}
+                          {{ if eq .Type "serviceSingle" }}
+                            {{ if eq .Params.category "mobileapp" }}
+                              <a href="{{ $.Site.BaseURL }}{{ .URL }}" class="myfont_footer">{{ .Title }}</a>,
+                            {{ end }}
+                          {{ end }}
+                        {{ end }}
+                      </p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">ERP Systems</h3>
+                      <p class="myfont_footer">GST</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">Web Development</h3>
+                      <p class="myfont_footer">PHP, Hugo, React JS, Redux</p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">Database</h3>
+                      <p class="myfont_footer">MySQL, MongoDB, Redis, Flask</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">Game Development</h3>
+                      <p class="myfont_footer">Android, Unity</p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">E-Commerce</h3>
+                      <p class="myfont_footer">Magento, Wordpress, Shopify</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">Web Services</h3>
+                      <p class="myfont_footer">Amazon Webservices, Rasberry Pi</p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <h3 class="myFontHead">Virtual Reality</h3>
+
+                    </div>
+                  </div>
+               </div>
+          </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+          <div class="contact-info bottom">
+              <h2 class="myFontHead">Contacts</h2>
+              {{ range .Site.Pages.ByWeight }}
+                {{ if eq .Type "footer" }}
+                  <address class="myfont_footer">
+                  E-mail: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a> <br>
+                  Phone: +91 {{ .Params.mobile }} <br>
+                  Fax: +91 {{ .Params.fax }}<br>
+                  </address>
+
+                  <h2 class="myFontHead">Address</h2>
+                  <address class="myfont_footer">
+                  {{ .Params.address | safeHTML}}
+                  </address>
+                {{end}}
+              {{end}}
+          </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+          <div class="contact-form bottom">
+              <h2 class="myFontHead ">Send a message</h2>
+              <form id="main-contact-form">
+                  <div class="form-group">
+                      <input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                      <input type="email" name="contact_email" id="contact_email" class="form-control" placeholder="Email Id">
+                  </div>
+                  <div class="form-group">
+                      <textarea name="message" id="message" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                  </div>
+                  <div class="form-group">
+                      <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                  </div>
+              </form>
+          </div>
+      </div>
+    </div>
+</div>
+<div>
+    <div class="copyright-text text-center footer-img" style="background-image: url({{ $.Site.BaseURL }}images/home/tour-bg.png);">
+        <img src="{{ $.Site.BaseURL }}images/footer_logo.png" style=" margin-top: 10px; height:5%; width: 5%;"/> <br><br>
+        <p style="color:#f9fcf6">&copy; Pistalix <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
+        <p style="color:#f9fcf6">Designed by <a style="color:#5eca3e" target="_blank" href="{{ .Site.BaseURL }}">Pistalix</a></p>
+    </div>
+</div>

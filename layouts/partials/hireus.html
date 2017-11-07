@@ -1,0 +1,63 @@
+<section id="page-breadcrumb">
+  <div class="vertical-center sun">
+    <div class="container">
+      <div class="row">
+        <div class="action" style="background-image: url({{ $.Site.BaseURL }}images/home/tour-bg.png);">
+          <div class="col-sm-12">
+            <h1 class="title" style="color:#f9fcf6">
+            <span class="letter myFontHead" data-letter="H">Hire Us</span></h1>
+            <p style="color:#f9fcf6" >Why our Clients love to work with us.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about-company" class="padding-top wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms" style="margin:20px;">
+        <div class="container" id="about-hireus">
+            <div class="row">
+              <div class="col-sm-3 hireus-left">
+                <div class="text-center">
+                  <i style="color:white;margin-top:56px;" class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                  <h4 class="myFontHead" style="color:white;margin-top:25px;">Please describe <br> your product data</h4>
+                  <h4 class="myFontHead" style="color:white;margin-top:201px;">We need your email<br>to reach your back</h4>
+                </div>
+              </div>
+              <div class="col-sm-9">
+                <div class="text-center" style="margin:19px;">
+                  <h1 class="myFontHead">HIRE US</h1>
+                  <br>
+                  <form id="hireus-form">
+                    <div class="row">
+                      <div class="col-sm-6 form-group">
+                        <p class="text-left">Name</p>
+                        <input type="text" class="form-control hire-element" id="name" placeholder="Your Name" name="name">
+                      </div>
+                      <div class="col-sm-6 form-group">
+                        <p class="text-left">Email</p>
+                        <input type="email" class="form-control hire-element" id="email" placeholder="Your Email" name="email">
+                      </div>
+                    </div><br>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <p class="text-left">Message</p>
+                        <textarea placeholder="Type your message..." name="message" id="message" class="form-control hire-element" rows="8" cols="80"></textarea>
+                      </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                      <div class="col-sm-4 "></div>
+                      <div class="col-sm-4 "></div>
+                      <div class="col-sm-4">
+                        <input type="submit" name="submit" id="submit" class="btn btn-submit" value="send">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+</section>
+<br>
+  {{ partial "services.html" . }}
+<br>

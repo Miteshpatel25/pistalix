@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pricingtables on pistalix</title>
+    <link>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/</link>
+    <description>Recent content in Pricingtables on pistalix</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://infinitegeek.gitlab.io/pistalix-web/pricingtables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FIXED RATE</title>
+      <link>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/fixed-rate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/fixed-rate/</guid>
+      <description>FIXED RATE</description>
+    </item>
+    
+    <item>
+      <title>HIRE DEDICATED DEVLOPERS</title>
+      <link>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/hire-dedicated-devlopers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/hire-dedicated-devlopers/</guid>
+      <description>HIRE DEDICATED DEVLOPERS</description>
+    </item>
+    
+    <item>
+      <title>REVENUE SHARE</title>
+      <link>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/revenue-share/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/revenue-share/</guid>
+      <description>REVENUE SHARE</description>
+    </item>
+    
+    <item>
+      <title>TIME BASE</title>
+      <link>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/time-base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitegeek.gitlab.io/pistalix-web/pricingtables/time-base/</guid>
+      <description>TIME BASE</description>
+    </item>
+    
+  </channel>
+</rss>

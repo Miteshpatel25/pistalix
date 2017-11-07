@@ -1,0 +1,153 @@
+
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/lightbox.min.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/wow.min.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/main.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/gmaps.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+ <script src="{{ .Site.BaseURL }}js/animate.js"></script>
+ <script src="{{ .Site.BaseURL }}js/our_services.js"></script>
+ <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js" crossorigin="anonymous"></script>
+ <script type="text/javascript">
+   $(document).ready(function(){
+     $("#main-contact-form").validate({
+       rules: {
+         contact_name: "required",
+         contact_email: {
+           required: true,
+           email: true
+         },
+         message: "required"
+       },
+       messages: {
+         contact_name: "Please enter your name",
+         contact_email: {
+           required: "Please enter email",
+           email: "Please enter valid email"
+         },
+         message: "Please enter message"
+       },
+       submitHandler: function(form){
+         var let_data = $(form).serializeArray();
+         var indexed_array = {};
+         $.map(let_data, function(n, i){
+           indexed_array[n['name']] = n['value'];
+         });
+         console.log(indexed_array);
+       }
+     });
+     $("#hireus-form").validate({
+       rules: {
+         name: {
+           required: true
+         },
+         email: {
+           required: true,
+           email: true
+         },
+         message: "required"
+       },
+       messages: {
+         name: {
+           required: "Please enter name"
+         },
+         email: {
+           required: "Please enter email",
+           email: "Please enter valid email"
+         },
+         message: "Please enter message"
+       },
+       submitHandler: function(form){
+         var let_data = $(form).serializeArray();
+         var indexed_array = {};
+         $.map(let_data, function(n, i){
+           indexed_array[n['name']] = n['value'];
+         });
+         console.log(indexed_array);
+       }
+     });
+
+     $("#carrearformsubmit").validate({
+       rules: {
+         name: {
+           required: true
+         },
+         age: {
+           required: true
+         },
+         gender: "required",
+         dob: "required",
+         collage: "required",
+         startyear: {
+           required: true,
+           number: true,
+           minlength: 4,
+           maxlength: 4
+         },
+         endyear: {
+           required: true,
+           number: true,
+           minlength: 4,
+           maxlength: 4
+         },
+         current_designation: "required",
+         current_salary: {
+           required: true,
+           number: true
+         },
+         experiance: "required",
+         apply_for: "required",
+         interview_datetime: "required"
+       },
+       messages: {
+         name: {
+           required: "Please enter your name"
+         },
+         age: {
+           required: "Please enter age"
+         },
+         gender: "Select  gender",
+         dob: "Please enter dob date",
+         collage: "Enter collage name",
+         startyear: {
+           required: "Please enter start year",
+           number: "Please enter valid year",
+           minlength: "Please enter valid year",
+           maxlength: "Please enter valid year"
+         },
+         endyear: {
+           required: "Please enter end year",
+           number: "Please enter valid year",
+           minlength: "Please enter valid year",
+           maxlength: "Please enter valid year"
+         },
+         current_designation: "Please enter current designation",
+         current_salary: {
+           required: "Please enter salary",
+           number: "Please enter valid salary"
+         },
+         experiance: "Please enter experiance",
+         apply_for: "Please enter apply for",
+         interview_datetime: "Select date and time"
+       },
+       submitHandler: function(form) {
+        // do other things
+        var age = $("#age").val();
+        if(age > 0){
+          var send_data = $(form).serializeArray();
+          var indexed_array = {};
+          $.map(send_data, function(n, i){
+            indexed_array[n['name']] = n['value'];
+          });
+          console.log(indexed_array);
+        }else{
+          alert("Please enter valid age");
+        }
+       }
+     });
+
+   });
+ </script>

@@ -1,0 +1,46 @@
+<section id="page-breadcrumb">
+    <div class="vertical-center sun">
+         <div class="container">
+            <div class="row">
+                <div class="action">
+                    <div class="col-sm-12">
+
+                       <a href="{{.Site.BaseURL}}contact">
+                        <h1 class="title" style="color:#f9fcf6;font-size: 40px;">
+                          <span class="letter" data-letter="C">Contact Us</span></h1>
+                        <p style="color:#f9fcf6" >Stay close</p>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="map-section">
+    <div class="container">
+      <div class="row">
+
+        <div id="gmap"></div>
+        {{ $detailes := getJSON "/data/header/contact.json" }}
+        <div class="contact-info bottom">
+            <h2 class="myFontHead">Contacts</h2>
+            {{ range .Site.Pages.ByWeight }}
+              {{ if eq .Type "footer" }}
+                <address class="myfont_footer">
+                E-mail: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a> <br>
+                Phone: +91 {{ .Params.mobile }} <br>
+                Fax: +91 {{ .Params.fax }}<br>
+                </address>
+
+                <h2 class="myFontHead">Address</h2>
+                <address class="myfont_footer">
+                {{ .Params.address | safeHTML}}
+                </address>
+              {{end}}
+            {{end}}
+        </div>
+    </div>
+    </div>
+</section>

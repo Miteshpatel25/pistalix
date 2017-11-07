@@ -1,0 +1,109 @@
+  @media only screen and (max-width: 500px) {
+    .and_first_image{
+    	content:url("/images/android/and_centre.png");
+    }
+    .and_second_image{
+      content:url("/images/android/and1_centre.png");
+    }
+    .and_third_image{
+      content:url("/images/android/and2_centre.png");
+    }
+    .flask_second_image{
+      content:url("/images/flask/flask2_centre.png");
+    }
+    .hugo_first_image{
+      content:url("/images/hugo/hugo_centre.png");
+    }
+    .magento_second_image{
+      content:url("/images/magento/magento2_centre.png");
+    }
+    .mongodb_first_image{
+      content:url("/images/mongodb/mongodb1_centre.png");
+    }
+    .mysql_first_image{
+      content:url("/images/mysql/mysql_centre.png");
+    }
+    .mysql_second_image{
+      content:url("/images/mysql/mysql2_centre.png");
+    }
+    .mysql_third_image{
+      content:url("/images/mysql/mysql1_centre.png");
+    }
+    .php_first_image {
+      content:url("/images/php/php4_centre.png");
+    }
+    .raspberrypi_first_image {
+      content:url("/images/raspberry/raspberry2_centre.png");
+    }
+    .raspberrypi_second_image {
+      content:url("/images/raspberry/raspberry1_centre.png");
+    }
+    .react-native_second_image {
+      content:url("/images/react/react1_centre.png");
+    }
+    .redis_first_image {
+      content:url("/images/redis/redis-tutorial_centre.png");
+    }
+    .redux_first_image{
+      content:url("/images/redux/redux_centre.png");
+    }
+    .shopify_first_image {
+      content:url("/images/shopify/shopify3_centre.png");
+    }
+    .ios_first_image {
+      content:url("/images/ios/ios2_centre.png");
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .and_first_image{
+    	content:url("/images/android/and_centre.png");
+    }
+    .and_second_image{
+      content:url("/images/android/and1_centre.png");
+    }
+    .and_third_image{
+      content:url("/images/android/and2_centre.png");
+    }
+    .flask_second_image{
+      content:url("/images/flask/flask2_centre.png");
+    }
+    .hugo_first_image{
+      content:url("/images/hugo/hugo_centre.png");
+    }
+    .magento_second_image{
+      content:url("/images/magento/magento2_centre.png");
+    }
+    .mongodb_first_image{
+      content:url("/images/mongodb/mongodb1_centre.png");
+    }
+    .mysql_first_image{
+      content:url("/images/mysql/mysql_centre.png");
+    }
+    .mysql_second_image{
+      content:url("/images/mysql/mysql2_centre.png");
+    }
+    .mysql_third_image{
+      content:url("/images/mysql/mysql1_centre.png");
+    }
+    .php_first_image {
+      content:url("/images/php/php4_centre.png");
+    }
+    .raspberrypi_first_image {
+      content:url("/images/raspberry/raspberry2_centre.png");
+    }
+    .raspberrypi_second_image {
+      content:url("/images/raspberry/raspberry1_centre.png");
+    }
+    .react-native_second_image {
+      content:url("/images/react/react1_centre.png");
+    }
+    .redis_first_image {
+      content:url("/images/redis/redis-tutorial_centre.png");
+    }
+    .redux_first_image{
+      content:url("/images/redux/redux_centre.png");
+    }
+    .shopify_first_image {
+      content:url("/images/shopify/shopify3_centre.png");
+    }
+  }
