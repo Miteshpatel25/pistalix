@@ -1,6 +1,6 @@
   @media only screen and (max-width: 500px) {
     .and_first_image{
-    	content:url("/images/android/and_centre.png");
+    	content:url("/pistalix-web/images/android/and_centre.png");
     }
     .and_second_image{
       content:url("/images/android/and1_centre.png");

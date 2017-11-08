@@ -2,155 +2,155 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Singleservices on pistalix</title>
-    <link>https://infinitegeek.gitlab.io/pistalix-web/singleservices/</link>
+    <link>https://infinitegeek.gitlab.io/singleservices/</link>
     <description>Recent content in Singleservices on pistalix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://infinitegeek.gitlab.io/pistalix-web/singleservices/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://infinitegeek.gitlab.io/singleservices/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Amazon Web Service</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/aws/</link>
+      <link>https://infinitegeek.gitlab.io/aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/aws/</guid>
+      <guid>https://infinitegeek.gitlab.io/aws/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/android/</link>
+      <link>https://infinitegeek.gitlab.io/android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/android/</guid>
+      <guid>https://infinitegeek.gitlab.io/android/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Flask</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/flask/</link>
+      <link>https://infinitegeek.gitlab.io/flask/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/flask/</guid>
+      <guid>https://infinitegeek.gitlab.io/flask/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/hugo/</link>
+      <link>https://infinitegeek.gitlab.io/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/hugo/</guid>
+      <guid>https://infinitegeek.gitlab.io/hugo/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Magento</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/magento/</link>
+      <link>https://infinitegeek.gitlab.io/magento/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/magento/</guid>
+      <guid>https://infinitegeek.gitlab.io/magento/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>MongoDB</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/mongodb/</link>
+      <link>https://infinitegeek.gitlab.io/mongodb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/mongodb/</guid>
+      <guid>https://infinitegeek.gitlab.io/mongodb/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/mysql/</link>
+      <link>https://infinitegeek.gitlab.io/mysql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/mysql/</guid>
+      <guid>https://infinitegeek.gitlab.io/mysql/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>PHP</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/php/</link>
+      <link>https://infinitegeek.gitlab.io/php/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/php/</guid>
+      <guid>https://infinitegeek.gitlab.io/php/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Rasbery Pi</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/raspberrypi/</link>
+      <link>https://infinitegeek.gitlab.io/raspberrypi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/raspberrypi/</guid>
+      <guid>https://infinitegeek.gitlab.io/raspberrypi/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>React Native</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/react-native/</link>
+      <link>https://infinitegeek.gitlab.io/react-native/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/react-native/</guid>
+      <guid>https://infinitegeek.gitlab.io/react-native/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Redis</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/redis/</link>
+      <link>https://infinitegeek.gitlab.io/redis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/redis/</guid>
+      <guid>https://infinitegeek.gitlab.io/redis/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Redux</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/redux/</link>
+      <link>https://infinitegeek.gitlab.io/redux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/redux/</guid>
+      <guid>https://infinitegeek.gitlab.io/redux/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Shopify</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/shopify/</link>
+      <link>https://infinitegeek.gitlab.io/shopify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/shopify/</guid>
+      <guid>https://infinitegeek.gitlab.io/shopify/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Unity 3D</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/unity3d/</link>
+      <link>https://infinitegeek.gitlab.io/unity3d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/unity3d/</guid>
+      <guid>https://infinitegeek.gitlab.io/unity3d/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>Wordpress</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/wordpress/</link>
+      <link>https://infinitegeek.gitlab.io/wordpress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/wordpress/</guid>
+      <guid>https://infinitegeek.gitlab.io/wordpress/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     
     <item>
       <title>iOS</title>
-      <link>https://infinitegeek.gitlab.io/pistalix-web/ios/</link>
+      <link>https://infinitegeek.gitlab.io/ios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/pistalix-web/ios/</guid>
+      <guid>https://infinitegeek.gitlab.io/ios/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
     </item>
     

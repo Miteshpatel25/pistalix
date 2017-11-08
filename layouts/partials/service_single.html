@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 text-center service-single-image">
-                  <img src="{{ .Params.serviceImage.url }}" style="" class="margin-bottom img-responsive" alt="">
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.serviceImage.url }}" style="" class="margin-bottom img-responsive" alt="">
                 </div>
                 <div class="col-md-3"></div>
             </div>
@@ -47,7 +47,7 @@
             <div class="single-features">
                 <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                     <h2 class="myFontHead myshow_pist">{{ .title }}</h2>
-                    <img src="{{ .image.url }}" class="img-responsive {{ .image_class }}" alt="">
+                    <img src="{{ $.Site.BaseURL }}{{ .image.url }}" class="img-responsive {{ .image_class }}" alt="">
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                     <h2 class="myFontHead myhide_pist">{{ .title }}</h2>
@@ -63,7 +63,7 @@
                     <p class="myfont_footer">{{ .description | markdownify}}</p>
                 </div>
                 <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <img src="{{ .image.url }}" class="img-responsive {{ .image_class }}" alt="">
+                    <img src="{{ $.Site.BaseURL }}{{ .image.url }}" class="img-responsive {{ .image_class }}" alt="">
                 </div>
             </div>
           {{ end }}
@@ -96,7 +96,7 @@
                       <div class="row">
                           <div class="col-md-3"></div>
                           <div class="col-md-6 text-center service-single-image">
-                            <img src="{{ .Params.business_image }}" class="margin-bottom img-responsive" alt="">
+                            <img src="{{ $.Site.BaseURL }}{{ .Params.business_image }}" class="margin-bottom img-responsive" alt="">
                           </div>
                           <div class="col-md-3"></div>
                       </div>
