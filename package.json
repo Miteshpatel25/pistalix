@@ -1,0 +1,22 @@
+{
+  "name": "pistalix-web",
+  "version": "1.0.0",
+  "description": "pistalix-web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/InfiniteGeek/pistalix-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/InfiniteGeek/pistalix-web/issues"
+  },
+  "homepage": "https://gitlab.com/InfiniteGeek/pistalix-web#README",
+  "devDependencies": {
+    "datocms-client": "^0.3.28"
+  }
+}
