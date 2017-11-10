@@ -120,7 +120,7 @@
                   {{ range .Site.Pages.ByWeight }}
                     {{ if eq .Type "pricingTables" }}
                       <div class="col-sm-6 col-md-3 ">
-                          <div class="single-price {{ .Params.priceClass }}">
+                          <div class="single-price {{ .Params.priceclass }}">
                               <div class="table-heading">
                                   <p class="plan-name">{{ .Title }}</p>
                                   <p class="plan-price"><i class="fa fa-inr fa-2x" aria-hidden="true"></i><!--span class="dollar-sign">$</span><span class="price">29</span><span class="month">/ Month</span--></p>
