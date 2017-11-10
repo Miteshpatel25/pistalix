@@ -204,7 +204,7 @@ extraFeaturedBlock:
       Pistalix develops a wide range of MySQL solutions ICONS of categories (like games, social network, health, travel, etc.)
       Our Services like **100% Confidential**, **24/7 Support**, **As per your dreams**, **Affordable Services**, **Services for Multiple Devices**, **Persistent Client Interaction**
     title: MySQL Development Solutions
-serviceImage:
+serviceimage:
   format: gif
   size: 103653
   width: 1024

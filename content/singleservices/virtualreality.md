@@ -146,7 +146,7 @@ extraFeaturedBlock:
     description: |-
       Pistalix develops a wide range of Virtual Reality solutions ICONS of categories (like games, social network, health, travel, etc.) Our Services like **100% Confidential**, **24/7 Support**, **As per your dreams**, **Affordable Services**, **Services for Multiple Devices**, and **Persistent Client Interaction**
     title: Virtual Reality Development Solutions
-serviceImage:
+serviceimage:
   format: gif
   size: 103653
   width: 1024

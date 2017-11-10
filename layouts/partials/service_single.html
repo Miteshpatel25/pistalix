@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 text-center service-single-image">
-                  <img src="{{ $.Site.BaseURL }}{{ .Params.serviceImage.url }}" style="" class="margin-bottom img-responsive" alt="">
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.serviceimage.url }}" style="" class="margin-bottom img-responsive" alt="">
                 </div>
                 <div class="col-md-3"></div>
             </div>
@@ -145,8 +145,8 @@
                     <div class="row">
                         <div class="col-sm-12 text-center pist-service-font">
                             <h2 class="margin-bottom myFontHead">{{ .Params.technology_stack }}</h2>
-                            {{ if isset .Params "stackDescription" }}
-                              {{ .Params.stackDescription | markdownify }}
+                            {{ if isset .Params "stackdescription" }}
+                              {{ .Params.stackdescription | markdownify }}
                             {{ end }}
                         </div>
                     </div>
