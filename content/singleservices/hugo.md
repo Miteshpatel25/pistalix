@@ -3,7 +3,7 @@ title: Hugo
 type: serviceSingle
 url: hugo
 technology_stack: Technology Stack
-stackDescription: |-
+stackdescription: |-
   ### Hugo
   Hugo Golang, HTML
   ### Common

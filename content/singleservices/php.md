@@ -3,7 +3,7 @@ title: PHP
 type: serviceSingle
 url: php
 technology_stack: Technology Stack
-stackDescription: |-
+stackdescription: |-
   ### PHP
   Slim, Core, Magento
   ### Database

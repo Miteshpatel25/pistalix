@@ -3,7 +3,7 @@ title: Android
 type: serviceSingle
 url: android
 technology_stack: Technology Stack
-stackDescription: |-
+stackdescription: |-
   ### Android
   Android Studio, Android SDK, Kotlin
   ### Database

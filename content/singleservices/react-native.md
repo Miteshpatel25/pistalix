@@ -3,7 +3,7 @@ title: React Native
 type: serviceSingle
 url: react-native
 technology_stack: Technology Stack
-stackDescription: |-
+stackdescription: |-
   ### React Native
   JavaScript
   ### Common

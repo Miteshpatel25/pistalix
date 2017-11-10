@@ -3,7 +3,7 @@ title: Redux
 type: serviceSingle
 url: redux
 technology_stack: Technology Stack
-stackDescription: |-
+stackdescription: |-
   ### Redux
   JavaScript
   ### Common

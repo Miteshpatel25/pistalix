@@ -3,7 +3,7 @@ title: iOS
 type: serviceSingle
 url: ios
 technology_stack: Technology Stack
-stackDescription: |-
+stackdescription: |-
   ### iOS
   Apple Xcode, intelliJ AppCode, React-native
   ### Database
