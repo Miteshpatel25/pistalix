@@ -1,13 +1,13 @@
 [{
   "title":"REVENUE SHARE",
-  "class":"price-three"
+  "myclass":"price-three"
  },{
    "title":"HIRE DEDICATED DEVLOPERS",
-   "class":"price-two"
+   "myclass":"price-two"
   },{
     "title":"TIME BASE",
-    "class":"price-one"
+    "myclass":"price-one"
    },{
      "title":"FIXED RATE",
-     "class":"price-four"
+     "myclass":"price-four"
     }]

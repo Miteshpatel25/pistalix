@@ -20,7 +20,7 @@
           {{ $products := getJSON "/data/aboutus/table.json" }}
           {{ range $products }}
           <div class="col-sm-6 col-md-3">
-              <div class="single-price {{ .class }}">
+              <div class="single-price {{ .myclass }}">
                   <div class="table-heading">
                       <p class="plan-name">{{ .title }}</p>
                       <p class="plan-price"><span class="dollar-sign">$</span><span class="price">29</span><span class="month">/ Month</span></p>
