@@ -2,83 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on pistalix</title>
-    <link>https://infinitegeek.gitlab.io/services/</link>
+    <link>https://pistalix-web.netlify.com/services/</link>
     <description>Recent content in Services on pistalix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://infinitegeek.gitlab.io/services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pistalix-web.netlify.com/services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WEB APP</title>
-      <link>https://infinitegeek.gitlab.io/services/web-app/</link>
+      <link>https://pistalix-web.netlify.com/services/web-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/web-app/</guid>
+      <guid>https://pistalix-web.netlify.com/services/web-app/</guid>
       <description>WEB APP</description>
     </item>
     
     <item>
       <title>DATABASE</title>
-      <link>https://infinitegeek.gitlab.io/services/database/</link>
+      <link>https://pistalix-web.netlify.com/services/database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/database/</guid>
+      <guid>https://pistalix-web.netlify.com/services/database/</guid>
       <description>DATABASE</description>
     </item>
     
     <item>
       <title>E-COMMERCE</title>
-      <link>https://infinitegeek.gitlab.io/services/e-commerce/</link>
+      <link>https://pistalix-web.netlify.com/services/e-commerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/e-commerce/</guid>
+      <guid>https://pistalix-web.netlify.com/services/e-commerce/</guid>
       <description>DATABASE</description>
     </item>
     
     <item>
       <title>ERP SYSTEMS</title>
-      <link>https://infinitegeek.gitlab.io/services/erp-systems/</link>
+      <link>https://pistalix-web.netlify.com/services/erp-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/erp-systems/</guid>
+      <guid>https://pistalix-web.netlify.com/services/erp-systems/</guid>
       <description>ERP SYSTEMS</description>
     </item>
     
     <item>
       <title>GAME DEVELOPMENT</title>
-      <link>https://infinitegeek.gitlab.io/services/game-development/</link>
+      <link>https://pistalix-web.netlify.com/services/game-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/game-development/</guid>
+      <guid>https://pistalix-web.netlify.com/services/game-development/</guid>
       <description>GAME DEVELOPMENT</description>
     </item>
     
     <item>
       <title>VIRTUAL REALITY</title>
-      <link>https://infinitegeek.gitlab.io/services/virtual-reality/</link>
+      <link>https://pistalix-web.netlify.com/services/virtual-reality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/virtual-reality/</guid>
+      <guid>https://pistalix-web.netlify.com/services/virtual-reality/</guid>
       <description>VIRTUAL REALITY</description>
     </item>
     
     <item>
       <title>WEB SERVICES</title>
-      <link>https://infinitegeek.gitlab.io/services/web-services/</link>
+      <link>https://pistalix-web.netlify.com/services/web-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/web-services/</guid>
+      <guid>https://pistalix-web.netlify.com/services/web-services/</guid>
       <description>WEB SERVICES</description>
     </item>
     
     <item>
       <title>MOBILE APP</title>
-      <link>https://infinitegeek.gitlab.io/services/mobile-app/</link>
+      <link>https://pistalix-web.netlify.com/services/mobile-app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/services/mobile-app/</guid>
+      <guid>https://pistalix-web.netlify.com/services/mobile-app/</guid>
       <description>MOBILE APP</description>
     </item>
     

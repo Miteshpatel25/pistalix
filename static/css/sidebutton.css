@@ -122,7 +122,22 @@ ul {
   }
 }
 
-#sticky-social a[class*="facebook"],
+#sticky-social a[class="get-quote"], #sticky-social a[class="get-quote"]:hover, .get-quote span {
+  background: #00aced;
+  color: white;
+}
+
+#sticky-social a[class="side-hireus"], #sticky-social a[class="side-hireus"]:hover, .side-hireus span {
+  background: #eb4924;
+  color: white;
+}
+
+#sticky-social a[class="side-internship"], #sticky-social a[class="side-internship"]:hover, .side-internship span {
+  background: #3b5998;
+  color: white;
+}
+
+/*#sticky-social a[class*="facebook"],
 #sticky-social a[class*="facebook"]:hover,
 #sticky-social a[class*="facebook"] span { background: #3b5998; }
 
@@ -168,4 +183,4 @@ ul {
 
 #sticky-social a[class*="monitor"],
 #sticky-social a[class*="monitor"]:hover,
-#sticky-social a[class*="monitor"] span { background: #3b5998; }
+#sticky-social a[class*="monitor"] span { background: #3b5998; }*/

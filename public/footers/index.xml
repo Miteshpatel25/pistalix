@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Footers on pistalix</title>
-    <link>https://infinitegeek.gitlab.io/footers/</link>
+    <link>https://pistalix-web.netlify.com/footers/</link>
     <description>Recent content in Footers on pistalix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://infinitegeek.gitlab.io/footers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pistalix-web.netlify.com/footers/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>footer</title>
-      <link>https://infinitegeek.gitlab.io/footers/footer/</link>
+      <link>https://pistalix-web.netlify.com/footers/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitegeek.gitlab.io/footers/footer/</guid>
+      <guid>https://pistalix-web.netlify.com/footers/footer/</guid>
       <description>pistalix.info@pistalix.com</description>
     </item>
     
