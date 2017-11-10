@@ -2,14 +2,6 @@
 title: Unity 3D
 type: serviceSingle
 url: unity3d
-technology_stack: Technology Stack
-stackDescription: |-
-  ### Unity 3D
-
-  ### Database
-
-  ### Common
-
 what_service: 'What Unity 3D is?'
 service_small_desc: 'Unity is a cross-platform game engine developed by unity technologies. Unity is generally used to make video games, games, virtual realities and simulators for computers, consoles, and mobile devices. With Unity, one can make 2D and 3D games. Unity is an all-purpose game engine that supports 2D and 3D graphics, drag & drop functionality and scripting through C# (C# is a object-oriented programing language ).'
 buttonTagline: Hire Us to Bring Your Dreams To Reality
@@ -161,7 +153,7 @@ serviceImage:
   alt: null
   url: '/images/unity/unity.gif'
 id: serviceSingle
-category: mobileapp
+category: gamedevelopment
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

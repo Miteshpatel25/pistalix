@@ -53,6 +53,12 @@
     .ios_first_image {
       content:url("/images/ios/ios2_centre.png");
     }
+    /*.opencart_first_image {
+      content:url("/images/opencart/oc1_centre.png");
+    }*/
+    .opencart_second_image {
+      content:url("/images/opencart/oc1_centre.png");
+    }
   }
   @media only screen and (max-width: 800px) {
     .and_first_image{
@@ -105,5 +111,14 @@
     }
     .shopify_first_image {
       content:url("/images/shopify/shopify3_centre.png");
+    }
+    .ios_first_image {
+      content:url("/images/ios/ios2_centre.png");
+    }
+    /*.opencart_first_image {
+      content:url("/images/opencart/oc1_centre.png");
+    }*/
+    .opencart_second_image {
+      content:url("/images/opencart/oc1_centre.png");
     }
   }

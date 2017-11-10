@@ -139,7 +139,7 @@
             </div>
         </div>
       </section>
-
+      {{ if isset .Params "technology_stack" }}
         <section id="about-company" class=" wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
                 <div class="container">
                     <div class="row">
@@ -150,6 +150,7 @@
                     </div>
                 </div>
         </section>
+      {{ end }}
     </div>
 </div>
 <div class="service_box_container">

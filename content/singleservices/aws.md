@@ -2,14 +2,6 @@
 title: Amazon Web Service
 type: serviceSingle
 url: aws
-technology_stack: Technology Stack
-stackDescription: |-
-  ### Amazon Web Service
-
-  ### Database
-
-  ### Common
-
 what_service: 'What AWS is?'
 service_small_desc: "Amazon Web Services (AWS) is a subsidiary of Amazon.com that provides on-demand cloud computing platforms to individuals, companies, and governments, on a paid subscription basis with a free-tier option available for 12 months. The technology allows subscribers to have at their disposal a full-fledged virtual cluster of computers, available all the time, through the internet. AWS's version of virtual computers have most of the attributes of a real computer including hardware (CPU(s) & GPU(s) for processing, local/RAM memory, hard-disk/SSD storage); a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, CRM, etc. Each AWS system also virtualizes its console I/O (keyboard, display, and mouse), allowing AWS subscribers to connect to their AWS system using a modern browser. The browser acts as a window into the virtual computer, letting subscribers log-in, configure and use their virtual systems just as they would a real physical computer. They can choose to deploy their AWS systems to provide Internet-based services for their own and their customers' benefit."
 buttonTagline: Hire Us to Bring Your Dreams To Reality
@@ -159,7 +151,7 @@ serviceImage:
   alt: null
   url: '/images/aws/aws.gif'
 id: serviceSingle
-category: mobileapp
+category: webservice
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

@@ -2,14 +2,6 @@
 title: Shopify
 type: serviceSingle
 url: shopify
-technology_stack: Technology Stack
-stackDescription: |-
-  ### Shopify
-
-  ### Database
-
-  ### Common
-
 what_service: 'What Shopify is?'
 service_small_desc: 'Shopify is both a Canadian e-commerce company headquartered in Ottawa, Ontario and the name of its computer software platform for online stores and retail point-of-sale systems. The Shopify company was founded in 2004, and its software platform was initially based on earlier software written by its founders for their online snowboard store. Shopify is a fully hosted e-commerce platform that allows you to download apps and create websites that sell online products with minimal activities.This means you no longer have to have separate website hosting, payment integrations and website content management systems. Shopify will do it all for you! You just need to drive customers to your website and find your products and service to sell!'
 buttonTagline: Hire Us to Bring Your Dreams To Reality
@@ -159,7 +151,7 @@ serviceImage:
   alt: null
   url: '/images/shopify/shopify.gif'
 id: serviceSingle
-category: mobileapp
+category: e-commerce
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

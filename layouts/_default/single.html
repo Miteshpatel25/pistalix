@@ -13,8 +13,12 @@
        {{ partial "hireus.html" . }}
       {{ end }}
 
-      {{ if eq .Params.id "careers"}}
-       {{ partial "careers.html" . }}
+      {{ if eq .Params.id "career"}}
+       {{ partial "career.html" . }}
+      {{ end }}
+
+      {{ if eq .Params.id "erp-system"}}
+       {{ partial "erp-system.html" . }}
       {{ end }}
 
       {{ if eq .Params.id "AboutUs"}}
@@ -33,8 +37,8 @@
        {{ partial "service.html" . }}
       {{ end }}
 
-      {{ if eq .Params.id "TV"}}
-       {{ partial "tv.html" . }}
+      {{ if eq .Params.id "gst"}}
+       {{ partial "gst.html" . }}
       {{ end }}
 
       {{ if eq .Params.id "python"}}

@@ -2,13 +2,6 @@
 title: Rasbery Pi
 type: serviceSingle
 url: raspberrypi
-technology_stack: Technology Stack
-stackDescription: |-
-  ### Rasbery Pi
-
-  ### Database
-
-  ### Common
 what_service: 'What Raspberry Pi is?'
 service_small_desc: 'The Raspberry Pi is a series of small single board computers developed by the Raspberry Pi Foundation to encourage the teaching of basic computer science in schools and developing countries. The “Raspberry” derives is an homage to early computer companies being named after a fruit, like Apple, Tangerine Computer Systems, Apricot Computers, and Acorn (which inspired the microcomputer’s design). The “Pi” derives from the original idea to make a small computer to run only the Python programming language.'
 busineess_title: Upgrade with Raspberry Pi 3
@@ -185,7 +178,7 @@ serviceImage:
   alt: null
   url: '/images/raspberry/raspberry-pi.gif'
 id: serviceSingle
-category: mobileapp
+category: webservice
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

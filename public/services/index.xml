@@ -34,25 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://infinitegeek.gitlab.io/services/e-commerce/</guid>
-      <description>E-COMMERCE</description>
-    </item>
-    
-    <item>
-      <title>WEB SERVICES</title>
-      <link>https://infinitegeek.gitlab.io/services/web-services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://infinitegeek.gitlab.io/services/web-services/</guid>
-      <description>WEB SERVICES</description>
-    </item>
-    
-    <item>
-      <title>GAME DEVELOPMENT</title>
-      <link>https://infinitegeek.gitlab.io/services/game-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://infinitegeek.gitlab.io/services/game-development/</guid>
-      <description>GAME DEVELOPMENT</description>
+      <description>DATABASE</description>
     </item>
     
     <item>
@@ -65,12 +47,30 @@
     </item>
     
     <item>
+      <title>GAME DEVELOPMENT</title>
+      <link>https://infinitegeek.gitlab.io/services/game-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitegeek.gitlab.io/services/game-development/</guid>
+      <description>GAME DEVELOPMENT</description>
+    </item>
+    
+    <item>
       <title>VIRTUAL REALITY</title>
       <link>https://infinitegeek.gitlab.io/services/virtual-reality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://infinitegeek.gitlab.io/services/virtual-reality/</guid>
       <description>VIRTUAL REALITY</description>
+    </item>
+    
+    <item>
+      <title>WEB SERVICES</title>
+      <link>https://infinitegeek.gitlab.io/services/web-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitegeek.gitlab.io/services/web-services/</guid>
+      <description>WEB SERVICES</description>
     </item>
     
     <item>

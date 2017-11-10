@@ -10,10 +10,26 @@
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
+
+  .gst-description h2 {
+    font-family: Roboto Condensed, sans-serif;
+  }
+  .gst-description h1 {
+    font-family: Roboto Condensed, sans-serif;
+  }
+  .gst-description p {
+    font-family: Roboto Condensed Regular;
+  }
+  .gst-description blockquote {
+    margin-top: 40px;
+  }
   .service-single-image .img-responsive {
     margin: 0 auto;
   }
-
+  #check_bot{
+    position:absolute;
+    visibility:hidden;
+  }
   @font-face {
     font-family: Roboto Condensed Regular;
     src: url('fonts/RobotoCondensed-Regular.ttf');
@@ -34,7 +50,7 @@
 
   .hireus-left{
     background-color: black;
-    height: 512px;
+    height: 551px;
 
   }
   #about-hireus{

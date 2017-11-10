@@ -2,14 +2,6 @@
 title: MySQL
 type: serviceSingle
 url: mysql
-technology_stack: Technology Stack
-stackDescription: |-
-  ### MySQL
-  Android Studio, Android SDK
-  ### Database
-  SQLite, MySQL
-  ### Common
-  REST, JSON, JavaScript, CSS, HTML, JSON, XML, JQuery, AJAX, PHP
 what_service: 'What MySQL is?'
 service_small_desc: 'Many computer programs, including web-based programs like blogs, photo galleries, and content management systems need to store and retrieve data. For example, blog software needs to store the posts (ie, articles) you write and retrieve them when a visitor goes to your site. Similarly, photo galleries store information about their pictures (for example, for sites that allow users to rate the photos, the numerical rating for each picture is stored in a database). Instead of reinventing the wheel and implementing their own system of storing and retrieving data.'
 buttonTagline: Hire Us to Bring Your Dreams To Reality
@@ -221,7 +213,7 @@ serviceImage:
   alt: null
   url: '/images/mysql/mysql.gif'
 id: serviceSingle
-category: mobileapp
+category: database
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

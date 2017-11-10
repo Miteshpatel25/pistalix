@@ -2,14 +2,6 @@
 title: Redis
 type: serviceSingle
 url: redis
-technology_stack: Technology Stack
-stackDescription: |-
-  ### Redis
-
-  ### Database
-
-  ### Common
-
 what_service: 'What Redis is?'
 service_small_desc: 'Redis is an open-source in-memory database project implementing a networked, in-memory key-value store with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, hyperloglogs, bitmaps and spatial indexes. The project is mainly developed by Salvatore Sanfilippo and is currently sponsored by Redis Labs. Many languages have Redis bindings, including: ActionScript, C, C++, C#, Chicken Scheme, Clojure, Common Lisp, D, Dart, Erlang, Go, Haskell, Haxe, Io, Java, JavaScript (Node.js), Julia, Lua, Objective-C, OCaml, Perl, PHP, Pure Data, Python, R, Racket, Ruby, Rust, Scala, Smalltalk and Tcl.'
 buttonTagline: Hire Us to Bring Your Dreams To Reality
@@ -118,7 +110,7 @@ serviceImage:
   alt: null
   url: '/images/redis/redis.gif'
 id: serviceSingle
-category: mobileapp
+category: database
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

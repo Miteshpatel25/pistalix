@@ -749,7 +749,7 @@ content:
         description: SEO Description
         image: null
       serviceCategory: mobileapp
-      slugUrlService: android
+      slugUrlService: redis
       stackDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
       technologyStack: Technology Stack
       buttonTagline: Hire Us to Bring Your Dreams To Reality
@@ -819,12 +819,12 @@ content:
                 content: article
           displayContent: left
           description: |-
-            * Android is the translator between your phone and you. 
+            * Android is the translator between your phone and you.
             * When you take a picture, Android tell to provide a button to tap, and Android tell  phone what to do on button tap.
             * When You receive a call Android tell phone what to do.
             * When you play a game, Android tell phone to track
             * your movement.
-            * Android almost help you in your daily routine. 
+            * Android almost help you in your daily routine.
             * Android provide service in the form of applications.
           image:
             format: png
@@ -875,7 +875,7 @@ content:
                 content: 'https://www.datocms-assets.com/3431/1509791509-and1-1.png?'
           displayContent: right
           description: |-
-            * Beautiful UI : My basic screen provides a  beautiful and intuitive user interface. 
+            * Beautiful UI : My basic screen provides a  beautiful and intuitive user interface.
             * Connectivity : I provide connectivity with GSM/EDGE, IDEN, CDMA, EV-DO, UMTS, Bluetooth, Wi-Fi, LTE, NFC and WIMax.
             * Storage : I provide lightweight data storage, using SQLite.
             * Media Support : I support wide range of media, like H.263, H.264, MPEG-4, AMR, AAC, MP3, JPEG, PNG, etc.

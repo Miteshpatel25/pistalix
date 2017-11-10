@@ -13,6 +13,43 @@
  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js" crossorigin="anonymous"></script>
  <script type="text/javascript">
    $(document).ready(function(){
+     if (typeof(Storage) !== "undefined") {
+       $("#contact_name").keyup(function(){
+         var todayTime = new Date();
+         var contact_name = todayTime.getFullYear()+"-"+todayTime.getMonth()+"-"+todayTime.getDate()+" "+todayTime.getHours()+":"+todayTime.getMinutes()+":"+todayTime.getSeconds();
+         localStorage.setItem("contact_name", contact_name);
+       });
+       $("#contact_message").keyup(function(){
+         var todayTime = new Date();
+         var contact_message = todayTime.getFullYear()+"-"+todayTime.getMonth()+"-"+todayTime.getDate()+" "+todayTime.getHours()+":"+todayTime.getMinutes()+":"+todayTime.getSeconds();
+         localStorage.setItem("contact_message", contact_message);
+       });
+
+       $("#hireus_name").keyup(function(){
+         var todayTime = new Date();
+         var hireus_name = todayTime.getFullYear()+"-"+todayTime.getMonth()+"-"+todayTime.getDate()+" "+todayTime.getHours()+":"+todayTime.getMinutes()+":"+todayTime.getSeconds();
+         localStorage.setItem("hireus_name", hireus_name);
+       });
+       $("#hireus_message").keyup(function(){
+         var todayTime = new Date();
+         var hireus_message = todayTime.getFullYear()+"-"+todayTime.getMonth()+"-"+todayTime.getDate()+" "+todayTime.getHours()+":"+todayTime.getMinutes()+":"+todayTime.getSeconds();
+         localStorage.setItem("hireus_message", hireus_message);
+       });
+
+       $("#gst_message").keyup(function(){
+         var todayTime = new Date();
+         var gst_message = todayTime.getFullYear()+"-"+todayTime.getMonth()+"-"+todayTime.getDate()+" "+todayTime.getHours()+":"+todayTime.getMinutes()+":"+todayTime.getSeconds();
+         localStorage.setItem("gst_message", gst_message);
+       });
+       $("#gst_email").keyup(function(){
+         var todayTime = new Date();
+         var gst_email = todayTime.getFullYear()+"-"+todayTime.getMonth()+"-"+todayTime.getDate()+" "+todayTime.getHours()+":"+todayTime.getMinutes()+":"+todayTime.getSeconds();
+         localStorage.setItem("gst_email", gst_email);
+       });
+
+      }else{
+        alert("Contact form not Supported for your browser");
+      }
      $("#main-contact-form").validate({
        rules: {
          contact_name: "required",
@@ -31,14 +68,42 @@
          message: "Please enter message"
        },
        submitHandler: function(form){
-         var let_data = $(form).serializeArray();
-         var indexed_array = {};
-         $.map(let_data, function(n, i){
-           indexed_array[n['name']] = n['value'];
-         });
-         console.log(indexed_array);
+         var checkbot = $("#check_bot").val();
+         if(checkbot){
+
+         }else{
+           var contactStartDate = localStorage.getItem("contact_name");
+           var contactEndDate = localStorage.getItem("contact_message");
+           var countChoice = new Date(contactStartDate) > new Date(contactEndDate);
+           if(countChoice){
+             var countTime = (new Date(contactStartDate) - new Date(contactEndDate))/1000;
+             if(countTime >= 2){
+                var let_data = $(form).serializeArray();
+                var indexed_array = {};
+                $.map(let_data, function(n, i){
+                  indexed_array[n['name']] = n['value'];
+                });
+                console.log(indexed_array);
+             }else{
+               alert("Your form filling to fast");
+             }
+           }else{
+             var countTime = (new Date(contactEndDate) - new Date(contactStartDate))/1000;
+             if(countTime >= 2){
+                var let_data = $(form).serializeArray();
+                var indexed_array = {};
+                $.map(let_data, function(n, i){
+                  indexed_array[n['name']] = n['value'];
+                });
+                console.log(indexed_array);
+             }else{
+                alert("Your form filling to fast");
+             }
+           }
+         }
        }
      });
+
      $("#hireus-form").validate({
        rules: {
          name: {
@@ -61,12 +126,93 @@
          message: "Please enter message"
        },
        submitHandler: function(form){
-         var let_data = $(form).serializeArray();
-         var indexed_array = {};
-         $.map(let_data, function(n, i){
-           indexed_array[n['name']] = n['value'];
-         });
-         console.log(indexed_array);
+         var contactStartDate = localStorage.getItem("hireus_name");
+         var contactEndDate = localStorage.getItem("hireus_message");
+         var countChoice = new Date(contactStartDate) > new Date(contactEndDate);
+         if(countChoice){
+           var countTime = (new Date(contactStartDate) - new Date(contactEndDate))/1000;
+           if(countTime >= 2){
+              var let_data = $(form).serializeArray();
+              var indexed_array = {};
+              $.map(let_data, function(n, i){
+                indexed_array[n['name']] = n['value'];
+              });
+              console.log(indexed_array);
+           }else{
+             alert("Your form filling to fast");
+           }
+         }else{
+           var countTime = (new Date(contactEndDate) - new Date(contactStartDate))/1000;
+           if(countTime >= 2){
+              var let_data = $(form).serializeArray();
+              var indexed_array = {};
+              $.map(let_data, function(n, i){
+                indexed_array[n['name']] = n['value'];
+              });
+              console.log(indexed_array);
+           }else{
+              alert("Your form filling to fast");
+           }
+         }
+
+       }
+     });
+
+     $("#gst-form").validate({
+       rules: {
+         name: {
+           required: true
+         },
+         contact: "required",
+         message: "required"
+       },
+       messages: {
+         name: {
+           required: "Please enter name"
+         },
+         contact: "Please enter contact number",
+         message: "Please enter message"
+       },
+       submitHandler: function(form){
+         var contactStartDate = localStorage.getItem("gst_message");
+         var contactEndDate = localStorage.getItem("gst_contact");
+         var countChoice = new Date(contactStartDate) > new Date(contactEndDate);
+         if(countChoice){
+           var countTime = (new Date(contactStartDate) - new Date(contactEndDate))/1000;
+           if(countTime >= 2){
+              var mob = /^[7-9]{1}[0-9]{9}$/;
+              if(mob.test($.trim($("#gst_contact").val())) == false){
+                alert("Please enter valid contact number");
+              }else{
+                var let_data = $(form).serializeArray();
+                var indexed_array = {};
+                $.map(let_data, function(n, i){
+                  indexed_array[n['name']] = n['value'];
+                });
+                console.log(indexed_array);
+              }
+           }else{
+             alert("Your form filling to fast");
+           }
+         }else{
+           var countTime = (new Date(contactEndDate) - new Date(contactStartDate))/1000;
+           if(countTime >= 2){
+             var mob = /^[7-9]{1}[0-9]{9}$/;
+             if(mob.test($.trim($("#gst_contact").val())) == false){
+               alert("Please enter valid contact number");
+             }else{
+               var let_data = $(form).serializeArray();
+               var indexed_array = {};
+               $.map(let_data, function(n, i){
+                 indexed_array[n['name']] = n['value'];
+               });
+               console.log(indexed_array);
+             }
+           }else{
+              alert("Your form filling to fast");
+           }
+         }
+
        }
      });
 

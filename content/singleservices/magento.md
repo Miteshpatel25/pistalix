@@ -2,14 +2,6 @@
 title: Magento
 type: serviceSingle
 url: magento
-technology_stack: Technology Stack
-stackDescription: |-
-  ### Magento
-
-  ### Database
-
-  ### Common
-
 what_service: 'What Magento is?'
 service_small_desc: 'Magento is an open-source e-commerce platform written in PHP. The software was originally developed by Varien Inc. Magento employs the MySQL or MariaDB relational database management system, the PHP programming language, and elements of the Zend Framework. It applies the conventions of object-oriented programming and model–view–controller architecture. Magento also uses the entity–attribute–value model to store data. On top of that, Magento 2 introduced the Model-View-ViewModel pattern to its front-end code using the JavaScript library Knockout.js.'
 buttonTagline: Hire Us to Bring Your Dreams To Reality
@@ -161,7 +153,7 @@ serviceImage:
   alt: null
   url: '/images/magento/magento.gif'
 id: serviceSingle
-category: mobileapp
+category: e-commerce
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

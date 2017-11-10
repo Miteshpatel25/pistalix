@@ -5,7 +5,7 @@ url: android
 technology_stack: Technology Stack
 stackDescription: |-
   ### Android
-  Android Studio, Android SDK
+  Android Studio, Android SDK, Kotlin
   ### Database
   SQLite, MySQL
   ### Common

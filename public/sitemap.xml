@@ -15,7 +15,7 @@
   </url>
   
   <url>
-    <loc>https://infinitegeek.gitlab.io/services/web-services/</loc>
+    <loc>https://infinitegeek.gitlab.io/services/erp-systems/</loc>
   </url>
   
   <url>
@@ -23,11 +23,11 @@
   </url>
   
   <url>
-    <loc>https://infinitegeek.gitlab.io/services/erp-systems/</loc>
+    <loc>https://infinitegeek.gitlab.io/services/virtual-reality/</loc>
   </url>
   
   <url>
-    <loc>https://infinitegeek.gitlab.io/services/virtual-reality/</loc>
+    <loc>https://infinitegeek.gitlab.io/services/web-services/</loc>
   </url>
   
   <url>
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://infinitegeek.gitlab.io/carrier/</loc>
+    <loc>https://infinitegeek.gitlab.io/career/</loc>
   </url>
   
   <url>
@@ -57,6 +57,10 @@
   
   <url>
     <loc>https://infinitegeek.gitlab.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://infinitegeek.gitlab.io/erp-system/</loc>
   </url>
   
   <url>
@@ -70,6 +74,10 @@
   <url>
     <loc>https://infinitegeek.gitlab.io/footers/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://infinitegeek.gitlab.io/gst/</loc>
   </url>
   
   <url>
@@ -98,6 +106,10 @@
   
   <url>
     <loc>https://infinitegeek.gitlab.io/mysql/</loc>
+  </url>
+  
+  <url>
+    <loc>https://infinitegeek.gitlab.io/opencart/</loc>
   </url>
   
   <url>
@@ -162,6 +174,10 @@
   
   <url>
     <loc>https://infinitegeek.gitlab.io/unity3d/</loc>
+  </url>
+  
+  <url>
+    <loc>https://infinitegeek.gitlab.io/virtualreality/</loc>
   </url>
   
   <url>

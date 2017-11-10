@@ -20,52 +20,70 @@
                     <div class="col-md-6">
                       <h3 class="myFontHead">Mobile Development</h3>
                       <p class="myfont_footer">
-                        {{ range .Site.Pages.ByWeight }}
-                          {{ if eq .Type "serviceSingle" }}
-                            {{ if eq .Params.category "mobileapp" }}
-                              <a href="{{ $.Site.BaseURL }}{{ .URL }}" class="myfont_footer">{{ .Title }}</a>,
-                            {{ end }}
-                          {{ end }}
-                        {{ end }}
+                        <a href="{{ $.Site.BaseURL }}android/" class="myfont_footer">Android</a>,
+                        <a href="{{ $.Site.BaseURL }}ios/" class="myfont_footer">iOS</a>,
+                        <a href="{{ $.Site.BaseURL }}react-native/" class="myfont_footer">React Native</a>
                       </p>
                     </div>
 
                     <div class="col-md-6">
                       <h3 class="myFontHead">ERP Systems</h3>
-                      <p class="myfont_footer">GST</p>
+
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6">
                       <h3 class="myFontHead">Web Development</h3>
-                      <p class="myfont_footer">PHP, Hugo, React JS, Redux</p>
+                      <p class="myfont_footer">
+                        <a href="{{ $.Site.BaseURL }}php/" class="myfont_footer">PHP</a>,
+                        <a href="{{ $.Site.BaseURL }}hugo/" class="myfont_footer">Hugo</a>,
+                        <a href="{{ $.Site.BaseURL }}redux/" class="myfont_footer">Redux</a>
+                      </p>
                     </div>
 
                     <div class="col-md-6">
                       <h3 class="myFontHead">Database</h3>
-                      <p class="myfont_footer">MySQL, MongoDB, Redis, Flask</p>
+                      <p class="myfont_footer">
+                        <a href="{{ $.Site.BaseURL }}mysql/" class="myfont_footer">MySQL</a>,
+                        <a href="{{ $.Site.BaseURL }}mongodb/" class="myfont_footer">MongoDB</a>,
+                        <a href="{{ $.Site.BaseURL }}redis/" class="myfont_footer">Redis</a>,
+                        <a href="{{ $.Site.BaseURL }}flask/" class="myfont_footer">Flask</a>
+                      </p>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6">
                       <h3 class="myFontHead">Game Development</h3>
-                      <p class="myfont_footer">Android, Unity</p>
+                      <p class="myfont_footer">
+                        <a href="{{ $.Site.BaseURL }}android/" class="myfont_footer">Android</a>,
+                        <a href="{{ $.Site.BaseURL }}unity3d/" class="myfont_footer">Unity</a>
+                      </p>
                     </div>
 
                     <div class="col-md-6">
                       <h3 class="myFontHead">E-Commerce</h3>
-                      <p class="myfont_footer">Magento, Wordpress, Shopify</p>
+                      <p class="myfont_footer">
+                        <a href="{{ $.Site.BaseURL }}magento/" class="myfont_footer">Magento</a>,
+                        <a href="{{ $.Site.BaseURL }}wordpress/" class="myfont_footer">Wordpress</a>,
+                        <a href="{{ $.Site.BaseURL }}shopify/" class="myfont_footer">Shopify</a>,
+                        <a href="{{ $.Site.BaseURL }}opencart/" class="myfont_footer">Opencart</a>
+                      </p>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6">
                       <h3 class="myFontHead">Web Services</h3>
-                      <p class="myfont_footer">Amazon Webservices, Rasberry Pi</p>
+                      <p class="myfont_footer">
+                        <a href="{{ $.Site.BaseURL }}aws/" class="myfont_footer">Amazon Webservice</a>,
+                        <a href="{{ $.Site.BaseURL }}raspberrypi/" class="myfont_footer">Raspberry Pi</a>
+                      </p>
                     </div>
 
                     <div class="col-md-6">
                       <h3 class="myFontHead">Virtual Reality</h3>
-
+                      <p class="myfont_footer">
+                        <a href="{{ $.Site.BaseURL }}virtualreality/" class="myfont_footer">Virtual Reality</a>
+                      </p>
                     </div>
                   </div>
                </div>
@@ -77,9 +95,8 @@
               {{ range .Site.Pages.ByWeight }}
                 {{ if eq .Type "footer" }}
                   <address class="myfont_footer">
-                  E-mail: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a> <br>
-                  Phone: +91 {{ .Params.mobile }} <br>
-                  Fax: +91 {{ .Params.fax }}<br>
+                    <img src="{{ $.Site.BaseURL }}images/email1.png" alt="">
+                    <img src="{{ $.Site.BaseURL }}images/contact1.png" alt="">
                   </address>
 
                   <h2 class="myFontHead">Address</h2>
@@ -94,6 +111,7 @@
           <div class="contact-form bottom">
               <h2 class="myFontHead ">Send a message</h2>
               <form id="main-contact-form">
+                  <input type="text" id="check_bot" name="check-bot" >
                   <div class="form-group">
                       <input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Name">
                   </div>
@@ -101,7 +119,7 @@
                       <input type="email" name="contact_email" id="contact_email" class="form-control" placeholder="Email Id">
                   </div>
                   <div class="form-group">
-                      <textarea name="message" id="message" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                      <textarea name="contact_message" id="contact_message" class="form-control" rows="8" placeholder="Your text here"></textarea>
                   </div>
                   <div class="form-group">
                       <input type="submit" name="submit" class="btn btn-submit" value="Submit">

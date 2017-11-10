@@ -80,15 +80,31 @@ title = "pistalix"
         name = "Wordpress"
         url = '/wordpress/'
         parent = 'services'
+    [[menu.main]]
+        name = "Opencart"
+        url = '/opencart/'
+        parent = 'services'
+    [[menu.main]]
+        name = "Virtual Reality"
+        url = '/virtualreality/'
+        parent = 'services'
 
 [[menu.main]]
     name = "Products"
     identifier = "products"
-    url  = "/Products/"
+    url  = "/products/"
     weight = 4
+    [[menu.main]]
+        name = "GST"
+        parent = "products"
+        url  = "/gst/"
+    [[menu.main]]
+        name = "ERP System"
+        parent = "products"
+        url  = "/erp-system/"
 [[menu.main]]
-    name = "Carrier"
-    url  = "/carrier/"
+    name = "Career"
+    url  = "/career/"
     weight = 5
 # [[menu.main]]
 #     name = "Table"
@@ -97,9 +113,4 @@ title = "pistalix"
 [[menu.main]]
     name = "Contact us"
     url  = "/contact/"
-    weight = 7
-[[menu.main]]
-    name = "Pistalix TV"
-    parent = "products"
-    url  = "/TV"
     weight = 7

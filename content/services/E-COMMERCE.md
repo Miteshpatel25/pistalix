@@ -3,31 +3,31 @@ title: E-COMMERCE
 type: service
 image:
   format: png
-  size: 568
+  size: 1161
   width: 40
   height: 40
-  title: E-COMMERCE
-  alt: E-COMMERCE
-  url: 'https://www.datocms-assets.com/3431/1506507229-ecommerce.png?'
+  title: DATABASE
+  alt: DATABASE
+  url: '/images/services/ecommerce.png'
 url: null
-weight: 3
+weight: 2
 id: service
 tagline: Why our Clients love to work with us.
 content:
-  - id: '107912'
+  - id: '107908'
     itemType: service_list
-    updatedAt: '2017-09-29T09:47:14.604Z'
+    updatedAt: '2017-10-03T07:28:46.774Z'
     seoMetaTags:
       - tagName: title
-        content: SHOPIFY
+        content: MySQL
       - tagName: meta
         attributes:
           property: 'og:title'
-          content: SHOPIFY
+          content: MySQL
       - tagName: meta
         attributes:
           name: 'twitter:title'
-          content: SHOPIFY
+          content: MySQL
       - tagName: meta
         attributes:
           name: 'twitter:card'
@@ -35,7 +35,7 @@ content:
       - tagName: meta
         attributes:
           property: 'article:modified_time'
-          content: '2017-09-29T09:47:14Z'
+          content: '2017-10-03T07:28:46Z'
       - tagName: meta
         attributes:
           property: 'og:locale'
@@ -47,37 +47,222 @@ content:
       - tagName: meta
         attributes:
           property: 'og:image'
-          content: 'https://www.datocms-assets.com/3431/1506678414-shopify_logo.png?'
+          content: 'https://www.datocms-assets.com/3431/1506678178-mysql.png?'
       - tagName: meta
         attributes:
           name: 'twitter:image'
-          content: 'https://www.datocms-assets.com/3431/1506678414-shopify_logo.png?'
-    servicePageLink: null
-    slugUrl: shopify
+          content: 'https://www.datocms-assets.com/3431/1506678178-mysql.png?'
+    servicePageLink:
+      id: '109089'
+      itemType: service_single
+      updatedAt: '2017-10-03T07:27:49.375Z'
+      seoMetaTags:
+        - tagName: title
+          content: MySQL
+        - tagName: meta
+          attributes:
+            property: 'og:title'
+            content: MySQL
+        - tagName: meta
+          attributes:
+            name: 'twitter:title'
+            content: MySQL
+        - tagName: meta
+          attributes:
+            name: 'twitter:card'
+            content: summary
+        - tagName: meta
+          attributes:
+            property: 'article:modified_time'
+            content: '2017-10-03T07:27:49Z'
+        - tagName: meta
+          attributes:
+            property: 'og:locale'
+            content: en_EN
+        - tagName: meta
+          attributes:
+            property: 'og:type'
+            content: article
+        - tagName: meta
+          attributes:
+            property: 'og:image'
+            content: 'https://www.datocms-assets.com/3431/1507015540-mysql.png?'
+        - tagName: meta
+          attributes:
+            name: 'twitter:image'
+            content: 'https://www.datocms-assets.com/3431/1507015540-mysql.png?'
+      seo: null
+      serviceCategory: database
+      slugUrlService: shopify
+      stackDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+      technologyStack: Technology Stack
+      buttonTagline: Hire Us to Bring Your Dreams To Reality
+      extraFeaturedBlock:
+        - id: '109091'
+          itemType: extra_block
+          updatedAt: '2017-10-03T07:27:38.481Z'
+          seoMetaTags:
+            - tagName: title
+              content: MySQL Development
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: MySQL Development
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: MySQL Development
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:27:38Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          title: MySQL Development
+      features:
+        - id: '109087'
+          itemType: featured_block
+          updatedAt: '2017-10-03T07:26:52.183Z'
+          seoMetaTags:
+            - tagName: title
+              content: MySQL
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: MySQL
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: MySQL
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:26:52Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+            - tagName: meta
+              attributes:
+                property: 'og:image'
+                content: 'https://www.datocms-assets.com/3431/1507015545-mysql.png?'
+            - tagName: meta
+              attributes:
+                name: 'twitter:image'
+                content: 'https://www.datocms-assets.com/3431/1507015545-mysql.png?'
+          displayContent: null
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          image:
+            format: png
+            size: 21484
+            width: 640
+            height: 331
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1507015545-mysql.png?'
+          title: MySQL
+        - id: '109088'
+          itemType: featured_block
+          updatedAt: '2017-10-03T07:26:52.205Z'
+          seoMetaTags:
+            - tagName: title
+              content: Features
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: Features
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: Features
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:26:52Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+            - tagName: meta
+              attributes:
+                property: 'og:image'
+                content: 'https://www.datocms-assets.com/3431/1507015549-mysql.png?'
+            - tagName: meta
+              attributes:
+                name: 'twitter:image'
+                content: 'https://www.datocms-assets.com/3431/1507015549-mysql.png?'
+          displayContent: null
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          image:
+            format: png
+            size: 21484
+            width: 640
+            height: 331
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1507015549-mysql.png?'
+          title: Features
+      serviceImage:
+        format: png
+        size: 21484
+        width: 640
+        height: 331
+        title: null
+        alt: null
+        url: 'https://www.datocms-assets.com/3431/1507015540-mysql.png?'
+      serviceTitle: MySQL
+    slugUrl: mysql
     shortDescription: 'Shopify is a complete ecommerce solution that allows you to set up an online store to sell your goods. It lets you organize your products, customize your storefront, accept credit card payments, track and respond to orders - all with a few clicks of the mouse.'
-    serviceTitle: SHOPIFY
+    serviceTitle: Shopify
     serviceImage:
       format: png
-      size: 3662
-      width: 226
-      height: 223
+      size: 21484
+      width: 640
+      height: 331
       title: null
       alt: null
       url: 'https://www.datocms-assets.com/3431/1506678414-shopify_logo.png?'
-  - id: '107913'
+  - id: '107909'
     itemType: service_list
-    updatedAt: '2017-09-29T09:47:47.855Z'
+    updatedAt: '2017-10-03T07:32:50.373Z'
     seoMetaTags:
       - tagName: title
-        content: MAGENTO
+        content: MONGODB
       - tagName: meta
         attributes:
           property: 'og:title'
-          content: MAGENTO
+          content: MONGODB
       - tagName: meta
         attributes:
           name: 'twitter:title'
-          content: MAGENTO
+          content: MONGODB
       - tagName: meta
         attributes:
           name: 'twitter:card'
@@ -85,7 +270,7 @@ content:
       - tagName: meta
         attributes:
           property: 'article:modified_time'
-          content: '2017-09-29T09:47:47Z'
+          content: '2017-10-03T07:32:50Z'
       - tagName: meta
         attributes:
           property: 'og:locale'
@@ -94,32 +279,193 @@ content:
         attributes:
           property: 'og:type'
           content: article
-    servicePageLink: null
-    slugUrl: magento
+    servicePageLink:
+      id: '109093'
+      itemType: service_single
+      updatedAt: '2017-10-03T07:32:18.665Z'
+      seoMetaTags:
+        - tagName: title
+          content: MongoDB
+        - tagName: meta
+          attributes:
+            property: 'og:title'
+            content: MongoDB
+        - tagName: meta
+          attributes:
+            name: 'twitter:title'
+            content: MongoDB
+        - tagName: meta
+          attributes:
+            name: 'twitter:card'
+            content: summary
+        - tagName: meta
+          attributes:
+            property: 'article:modified_time'
+            content: '2017-10-03T07:32:18Z'
+        - tagName: meta
+          attributes:
+            property: 'og:locale'
+            content: en_EN
+        - tagName: meta
+          attributes:
+            property: 'og:type'
+            content: article
+      seo: null
+      serviceCategory: database
+      slugUrlService: magento
+      stackDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+      technologyStack: Technology Stack
+      buttonTagline: Hire Us to Bring Your Dreams To Reality
+      extraFeaturedBlock:
+        - id: '109098'
+          itemType: extra_block
+          updatedAt: '2017-10-03T07:31:47.435Z'
+          seoMetaTags:
+            - tagName: title
+              content: MongoDB Development
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: MongoDB Development
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: MongoDB Development
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:31:47Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          title: MongoDB Development
+      features:
+        - id: '109092'
+          itemType: featured_block
+          updatedAt: '2017-10-03T07:30:31.552Z'
+          seoMetaTags:
+            - tagName: title
+              content: MongoDB
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: MongoDB
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: MongoDB
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:30:31Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+          displayContent: null
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          image:
+            format: jpeg
+            size: 3255
+            width: 140
+            height: 140
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1507015801-index.jpeg?'
+          title: MongoDB
+        - id: '109096'
+          itemType: featured_block
+          updatedAt: '2017-10-03T07:31:13.646Z'
+          seoMetaTags:
+            - tagName: title
+              content: Features
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: Features
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: Features
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:31:13Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+          displayContent: null
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          image:
+            format: jpeg
+            size: 3255
+            width: 140
+            height: 140
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1507015847-index.jpeg?'
+          title: Features
+      serviceImage:
+        format: jpeg
+        size: 3255
+        width: 140
+        height: 140
+        title: null
+        alt: null
+        url: 'https://www.datocms-assets.com/3431/1507015794-index.jpeg?'
+      serviceTitle: MongoDB
+    slugUrl: mongodb
     shortDescription: 'Magento is an open source CMS that gives business owners an opportunity to expand their business operations in the digital e-commerce world. It''s a powerful system, flexible, scalable and easy to customize. Magento has a good security system.'
     serviceTitle: MAGENTO
     serviceImage:
-      format: png
-      size: 13358
-      width: 170
-      height: 170
+      format: jpeg
+      size: 3255
+      width: 140
+      height: 140
       title: null
       alt: null
       url: 'https://www.datocms-assets.com/3431/1506678448-magento-logo.png?'
-  - id: '107914'
+  - id: '107910'
     itemType: service_list
-    updatedAt: '2017-09-29T09:48:17.293Z'
+    updatedAt: '2017-10-03T07:37:53.735Z'
     seoMetaTags:
       - tagName: title
-        content: WORDPRESS
+        content: FLASK
       - tagName: meta
         attributes:
           property: 'og:title'
-          content: WORDPRESS
+          content: FLASK
       - tagName: meta
         attributes:
           name: 'twitter:title'
-          content: WORDPRESS
+          content: FLASK
       - tagName: meta
         attributes:
           name: 'twitter:card'
@@ -127,7 +473,7 @@ content:
       - tagName: meta
         attributes:
           property: 'article:modified_time'
-          content: '2017-09-29T09:48:17Z'
+          content: '2017-10-03T07:37:53Z'
       - tagName: meta
         attributes:
           property: 'og:locale'
@@ -139,23 +485,460 @@ content:
       - tagName: meta
         attributes:
           property: 'og:image'
-          content: 'https://www.datocms-assets.com/3431/1506678480-wordpress.png?'
+          content: 'https://www.datocms-assets.com/3431/1506678263-images.jpeg?'
       - tagName: meta
         attributes:
           name: 'twitter:image'
-          content: 'https://www.datocms-assets.com/3431/1506678480-wordpress.png?'
-    servicePageLink: null
-    slugUrl: wordpress
-    shortDescription: 'WordPress is the world’s most popular tool for creating websites. WordPress is capable of creating any style of website, from a simple blog to a full-featured business website. You can even use WordPress to create an online store (using WooCommerce plugin).'
+          content: 'https://www.datocms-assets.com/3431/1506678263-images.jpeg?'
+    servicePageLink:
+      id: '109099'
+      itemType: service_single
+      updatedAt: '2017-10-03T07:37:35.053Z'
+      seoMetaTags:
+        - tagName: title
+          content: Flask
+        - tagName: meta
+          attributes:
+            property: 'og:title'
+            content: Flask
+        - tagName: meta
+          attributes:
+            name: 'twitter:title'
+            content: Flask
+        - tagName: meta
+          attributes:
+            name: 'twitter:card'
+            content: summary
+        - tagName: meta
+          attributes:
+            property: 'article:modified_time'
+            content: '2017-10-03T07:37:35Z'
+        - tagName: meta
+          attributes:
+            property: 'og:locale'
+            content: en_EN
+        - tagName: meta
+          attributes:
+            property: 'og:type'
+            content: article
+        - tagName: meta
+          attributes:
+            property: 'og:image'
+            content: 'https://www.datocms-assets.com/3431/1507016044-images.jpeg?'
+        - tagName: meta
+          attributes:
+            name: 'twitter:image'
+            content: 'https://www.datocms-assets.com/3431/1507016044-images.jpeg?'
+      seo: null
+      serviceCategory: database
+      slugUrlService: wordpress
+      stackDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+      technologyStack: Technology Stack
+      buttonTagline: Hire Us to Bring Your Dreams To Reality
+      extraFeaturedBlock: []
+      features:
+        - id: '109100'
+          itemType: featured_block
+          updatedAt: '2017-10-03T07:34:40.447Z'
+          seoMetaTags:
+            - tagName: title
+              content: Flask
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: Flask
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: Flask
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:34:40Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+            - tagName: meta
+              attributes:
+                property: 'og:image'
+                content: 'https://www.datocms-assets.com/3431/1507016057-images.jpeg?'
+            - tagName: meta
+              attributes:
+                name: 'twitter:image'
+                content: 'https://www.datocms-assets.com/3431/1507016057-images.jpeg?'
+          displayContent: null
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          image:
+            format: jpeg
+            size: 6336
+            width: 225
+            height: 225
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1507016057-images.jpeg?'
+          title: Flask
+        - id: '109101'
+          itemType: featured_block
+          updatedAt: '2017-10-03T07:35:03.727Z'
+          seoMetaTags:
+            - tagName: title
+              content: Flask
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: Flask
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: Flask
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-10-03T07:35:03Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+            - tagName: meta
+              attributes:
+                property: 'og:image'
+                content: 'https://www.datocms-assets.com/3431/1507016099-images.jpeg?'
+            - tagName: meta
+              attributes:
+                name: 'twitter:image'
+                content: 'https://www.datocms-assets.com/3431/1507016099-images.jpeg?'
+          displayContent: null
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+          image:
+            format: jpeg
+            size: 6336
+            width: 225
+            height: 225
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1507016099-images.jpeg?'
+          title: Flask
+      serviceImage:
+        format: jpeg
+        size: 6336
+        width: 225
+        height: 225
+        title: null
+        alt: null
+        url: 'https://www.datocms-assets.com/3431/1507016044-images.jpeg?'
+      serviceTitle: Flask
+    slugUrl: flask
+    shortDescription: 'WordPress is the world’s most popular tool for creating websites. WordPress is capable of creating any style of website, from a simple blog to a full-featured business website. You can even use WordPress to create an online store (WooCommerce plugin).'
     serviceTitle: WORDPRESS
     serviceImage:
-      format: png
-      size: 22011
-      width: 512
-      height: 512
+      format: jpeg
+      size: 6336
+      width: 225
+      height: 225
       title: null
       alt: null
       url: 'https://www.datocms-assets.com/3431/1506678480-wordpress.png?'
+  - id: '107911'
+    itemType: service_list
+    updatedAt: '2017-09-30T04:10:09.084Z'
+    seoMetaTags:
+      - tagName: title
+        content: REDIS
+      - tagName: meta
+        attributes:
+          property: 'og:title'
+          content: REDIS
+      - tagName: meta
+        attributes:
+          name: 'twitter:title'
+          content: REDIS
+      - tagName: meta
+        attributes:
+          name: 'twitter:card'
+          content: summary
+      - tagName: meta
+        attributes:
+          property: 'article:modified_time'
+          content: '2017-09-30T04:10:09Z'
+      - tagName: meta
+        attributes:
+          property: 'og:locale'
+          content: en_EN
+      - tagName: meta
+        attributes:
+          property: 'og:type'
+          content: article
+      - tagName: meta
+        attributes:
+          property: 'og:image'
+          content: 'https://www.datocms-assets.com/3431/1506678296-redis.png?'
+      - tagName: meta
+        attributes:
+          name: 'twitter:image'
+          content: 'https://www.datocms-assets.com/3431/1506678296-redis.png?'
+    servicePageLink:
+      id: '107942'
+      itemType: service_single
+      updatedAt: '2017-11-04T10:51:48.214Z'
+      seoMetaTags:
+        - tagName: title
+          content: SEO Title
+        - tagName: meta
+          attributes:
+            property: 'og:title'
+            content: SEO Title
+        - tagName: meta
+          attributes:
+            name: 'twitter:title'
+            content: SEO Title
+        - tagName: meta
+          attributes:
+            name: description
+            content: SEO Description
+        - tagName: meta
+          attributes:
+            property: 'og:description'
+            content: SEO Description
+        - tagName: meta
+          attributes:
+            name: 'twitter:description'
+            content: SEO Description
+        - tagName: meta
+          attributes:
+            name: 'twitter:card'
+            content: summary
+        - tagName: meta
+          attributes:
+            property: 'article:modified_time'
+            content: '2017-11-04T10:51:48Z'
+        - tagName: meta
+          attributes:
+            property: 'og:locale'
+            content: en_EN
+        - tagName: meta
+          attributes:
+            property: 'og:type'
+            content: article
+        - tagName: meta
+          attributes:
+            property: 'og:image'
+            content: 'https://www.datocms-assets.com/3431/1509792698-android_1.gif?'
+        - tagName: meta
+          attributes:
+            name: 'twitter:image'
+            content: 'https://www.datocms-assets.com/3431/1509792698-android_1.gif?'
+      seo:
+        title: SEO Title
+        description: SEO Description
+        image: null
+      serviceCategory: mobileapp
+      slugUrlService: opencart
+      stackDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+      technologyStack: Technology Stack
+      buttonTagline: Hire Us to Bring Your Dreams To Reality
+      extraFeaturedBlock:
+        - id: '107941'
+          itemType: extra_block
+          updatedAt: '2017-11-04T10:59:00.136Z'
+          seoMetaTags:
+            - tagName: title
+              content: Where to Find Me?
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: Where to Find Me?
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: Where to Find Me?
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-11-04T10:59:00Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+          description: 'Generally Android is in apk(Android Application Package) form. Once my application is developed I can be found at stores such as Google Play, SlideME, Opera Mobile Store, Amazon Appstore. Applications category is of wide range, which includes Music, Sports, News, Games, etc.'
+          title: Where to Find Me?
+      features:
+        - id: '107940'
+          itemType: featured_block
+          updatedAt: '2017-11-04T10:21:07.956Z'
+          seoMetaTags:
+            - tagName: title
+              content: What Android Do?
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: What Android Do?
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: What Android Do?
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-11-04T10:21:07Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+          displayContent: left
+          description: |-
+            * Android is the translator between your phone and you.
+            * When you take a picture, Android tell to provide a button to tap, and Android tell  phone what to do on button tap.
+            * When You receive a call Android tell phone what to do.
+            * When you play a game, Android tell phone to track
+            * your movement.
+            * Android almost help you in your daily routine.
+            * Android provide service in the form of applications.
+          image:
+            format: png
+            size: 46626
+            width: 158
+            height: 274
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1509790858-and1.png?'
+          title: What Android Do?
+        - id: '107939'
+          itemType: featured_block
+          updatedAt: '2017-11-04T10:32:03.829Z'
+          seoMetaTags:
+            - tagName: title
+              content: My Features
+            - tagName: meta
+              attributes:
+                property: 'og:title'
+                content: My Features
+            - tagName: meta
+              attributes:
+                name: 'twitter:title'
+                content: My Features
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-11-04T10:32:03Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+            - tagName: meta
+              attributes:
+                property: 'og:image'
+                content: 'https://www.datocms-assets.com/3431/1509791509-and1-1.png?'
+            - tagName: meta
+              attributes:
+                name: 'twitter:image'
+                content: 'https://www.datocms-assets.com/3431/1509791509-and1-1.png?'
+          displayContent: right
+          description: |-
+            * Beautiful UI : My basic screen provides a  beautiful and intuitive user interface.
+            * Connectivity : I provide connectivity with GSM/EDGE, IDEN, CDMA, EV-DO, UMTS, Bluetooth, Wi-Fi, LTE, NFC and WIMax.
+            * Storage : I provide lightweight data storage, using SQLite.
+            * Media Support : I support wide range of media, like H.263, H.264, MPEG-4, AMR, AAC, MP3, JPEG, PNG, etc.
+          image:
+            format: png
+            size: 60184
+            width: 271
+            height: 274
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1509791509-and1-1.png?'
+          title: My Features
+        - id: '108345'
+          itemType: featured_block
+          updatedAt: '2017-11-04T10:52:32.102Z'
+          seoMetaTags:
+            - tagName: meta
+              attributes:
+                name: 'twitter:card'
+                content: summary
+            - tagName: meta
+              attributes:
+                property: 'article:modified_time'
+                content: '2017-11-04T10:52:32Z'
+            - tagName: meta
+              attributes:
+                property: 'og:locale'
+                content: en_EN
+            - tagName: meta
+              attributes:
+                property: 'og:type'
+                content: article
+          displayContent: left
+          description: "* Messaging\n* Web-Browser : It is based on the open source webkit engine.\n* Multi-Touch : I has native touch support for multi-touch which was initially made available in handsets such as the HTC hero.\n* Multi-Tasking : You can jump from one application to another.\n* Multi-Language : I support single directional and bidirectional text.\n* GCM : Google Cloud Messaging(GCM) is a service that lets developers send short message data to their users on Android devices, without needing a proprietary sync solution.\n* Wi-Fi Direct : A technology that lets apps discover and pair directly, over a high bandwidth peer-to-peer connection.\n* Android Beam : A popular NFC-based that lets users instantly share, just by touching two NFC-enabled \t\t\tphones together."
+          image:
+            format: png
+            size: 58949
+            width: 165
+            height: 274
+            title: null
+            alt: null
+            url: 'https://www.datocms-assets.com/3431/1509791780-and2.png?'
+          title: ''
+      serviceImage:
+        format: gif
+        size: 103653
+        width: 1024
+        height: 661
+        title: null
+        alt: null
+        url: 'https://www.datocms-assets.com/3431/1509792698-android_1.gif?'
+      serviceTitle: Android
+    slugUrl: redis
+    shortDescription: 'Opencart is an open-source PHP based ecommerce software. It helps you setup your own online store and run your e-commerce business cost-effectively. Target of Opencart is people who wants to start an online store - most suitable for small online stores.'
+    serviceTitle: Opencart
+    serviceImage:
+      format: png
+      size: 53448
+      width: 1280
+      height: 428
+      title: null
+      alt: null
+      url: '/images/services/opencart2.png'
 ---
 
-E-COMMERCE
+DATABASE

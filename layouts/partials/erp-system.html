@@ -1,0 +1,115 @@
+<section id="page-breadcrumb">
+    <div class="vertical-center sun">
+         <div class="container">
+            <div class="row">
+                <div class="action" style="background-image: url({{ $.Site.BaseURL }}images/home/tour-bg.png);">
+                    <div class="col-sm-12">
+                        <h1 class="title" style="color:#f9fcf6">
+                            <span class="letter myFontHead" data-letter="{{ substr .Title 0 1 }}">{{ .Title }}</span></h1>
+                        <p style="color:#f9fcf6" >Why our Clients love to work with us.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about-company" class="padding-top wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+  <div class="container">
+    {{ $about := getJSON "/data/aboutus/about.json" }}
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 class="margin-bottom myFontHead">{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about-company" class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <img src="{{ $.Site.BaseURL }}images/home/set.png" class="img-responsive margin-bottom" alt="">
+                    <!-- <h1 class="margin-bottom myFontHead">About Our Company</h1>
+                    <p class="myfont_footer">{{ $about.about }}<br>{{ $about.about2 }}</p> -->
+                </div>
+            </div>
+        </div>
+</section>
+<section id="about-company" class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="pist_line "></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about-company" class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <!-- <img src="{{ $.Site.BaseURL }}images/home/set.png" class="margin-bottom" alt=""> -->
+                    <h1 class="margin-bottom myFontHead">Description</h1>
+                    <p class="myfont_footer">{{ $about.about }}<br>{{ $about.about2 }}</p>
+                </div>
+            </div>
+        </div>
+</section>
+<section id="about-company" class="padding-top wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="pist_line "></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="company-information" class="choose">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-12">
+          <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="100ms">
+            <h1 class="myFontHead" >FEATURES</h1>
+            <p class="myFontHead">Pistalix TV is powered by Raspberry Pi 3, which has:</p>
+            <ul class="elements">
+                <li style="color:#17202a;" class="wow fadeInUp " data-wow-duration="900ms" data-wow-delay="100ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">1.2GHz 64-bit quad-core ARMv8 CPU</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">WiFi - 802.11n Wireless LAN</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Bluetooth 4.1</span></li>
+                <li style="color:#17202a;" class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">1GB RAM </span></li>
+                <li style="color:#17202a;" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">4 USB ports</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">HDMI out</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="700ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Infrared Remote Sensor</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="800ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Combined 3.5mm A/V jack</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Micro SD card slot</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1000ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">VideoCore IV 3D graphics core.</span></li>
+            </ul>
+          </div>
+          <div class="col-sm-6  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="100ms">
+            <h1 class="myFontHead" >FEATURES</h1>
+            <p class="myFontHead">Pistalix TV is powered by Raspberry Pi 3, which has:</p>
+            <ul class="elements">
+                <li style="color:#17202a;" class="wow fadeInUp " data-wow-duration="900ms" data-wow-delay="100ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">1.2GHz 64-bit quad-core ARMv8 CPU</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">WiFi - 802.11n Wireless LAN</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Bluetooth 4.1</span></li>
+                <li style="color:#17202a;" class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">1GB RAM </span></li>
+                <li style="color:#17202a;" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">4 USB ports</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">HDMI out</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="700ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Infrared Remote Sensor</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="800ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Combined 3.5mm A/V jack</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">Micro SD card slot</span></li>
+                <li style="color:#17202a; " class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="1000ms"><i class="fa fa-angle-right"></i> <span class="myfont_footer">VideoCore IV 3D graphics core.</span></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section id="about-company" class="padding-top wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="pist_line "></div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
