@@ -99,7 +99,7 @@ content:
           content: article
     availibity: true
     condition: <br>Experience on similar projects.
-priceClass: price-four
+priceclass: price-four
 ---
 
 FIXED RATE

@@ -99,7 +99,7 @@ content:
           content: article
     availibity: false
     condition: <br>&nbsp;
-priceClass: price-three
+priceclass: price-three
 ---
 
 TIME BASE

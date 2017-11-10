@@ -99,7 +99,7 @@ content:
           content: article
     availibity: true
     condition: Talk to us for more details.
-priceClass: price-one
+priceclass: price-one
 ---
 
 REVENUE SHARE

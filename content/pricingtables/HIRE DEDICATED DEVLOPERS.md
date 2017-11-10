@@ -99,7 +99,7 @@ content:
           content: article
     availibity: true
     condition: 'Price distributed on hourly, daily, weekly, monthly based on required.'
-priceClass: price-two
+priceclass: price-two
 ---
 
 HIRE DEDICATED DEVLOPERS
